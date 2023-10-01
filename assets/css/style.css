@@ -35,7 +35,6 @@ img{
 .full-height{
     min-height: 100vh;
     height: 100%;
-
 }
 
 .header-bg{
@@ -65,7 +64,6 @@ nav{
     padding-top: 20px;
     width: 100%;
     top: 0;
-
 }
 
 .logo{
@@ -142,9 +140,6 @@ nav{
     background-color: #fff;
     margin-bottom: 30px;
 }
-
-
-
 
 .banner-p{
     margin-bottom: 30px;
@@ -223,8 +218,6 @@ select {
 
 }
 
-
-
  /* .green:hover .select{
     background-color: #F4FCFA !important;
  } */
@@ -251,7 +244,6 @@ label{
 
 .form-content{
     padding-top: 20px;
-
 }
 
 label{
