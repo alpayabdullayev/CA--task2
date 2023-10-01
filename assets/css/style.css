@@ -218,9 +218,16 @@ select {
     border-radius: .25em;
 }
 
- .green{
+.green{
     background-color: #10C98F;
- }
+
+}
+
+
+
+ /* .green:hover .select{
+    background-color: #F4FCFA !important;
+ } */
 .select::after {
     content: '';
     position: absolute;
