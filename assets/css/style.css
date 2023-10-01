@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.body{
+    font-family: 'Inter', sans-serif !important;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+}
+.container{
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+
+}
+
+.header-bg{
+    background-image: url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp");
+    min-height: 100vh;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(16,201,143,0.4); 
+    z-index: 1;
+}
+.init{
+    position: relative;
+    z-index: 2;
+}
+
+nav{
+    padding-top: 20px;
+    width: 100%;
+    top: 0;
+
+}
+
+.logo{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.nav-links{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: top;
+    padding: 28px 5px;
+    
+}
+
+.nav-links a{
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.nav-link-btn{
+    padding: 21px 40px;
+    font-weight: 500;
+    font-size: 14px ;
+    background-color: #10C98F;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.left-side{
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+.right-side{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: top;
+}
+.banner{
+    padding-top: 85px;
+    padding-left: 95px;
+    flex-wrap: wrap;
+}
+
+.banner-h1{
+    font-size: 62px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1.1;
+    margin-bottom: 20px;
+    padding-bottom: 29px;
+    font-family: "Inter",sans-serif;
+    position: relative;
+}
+.h1-span{
+    height: 100px;
+    width: 110px;
+    background: #fff;
+}
+.bottom {
+    display: inline-block;
+}
+
+.hr{
+    display: block;
+    width: 125px;
+    height: 4px;
+    color: #fff;
+    background-color: #fff;
+    margin-bottom: 30px;
+}
+
+
+
+
+.banner-p{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif 
+}
+
+.btn-banner{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+.btn-banner a{
+    border: 2px solid #fff;
+    padding: 20px 43px;
+    font-weight: 700;
+    font-family: 'Chivo', sans-serif;
+}
+.btn-banner a:hover{
+    background-color: #10C98F;
+    border: 2px solid #10C98F;
+    transition: all 0.4s ease-out;
+}
+
+.form{
+    background: #fff;
+    padding: 45px 35px;
+    width: 400px;
+    float: right;
+}
+
+.form-title{
+    text-align: center;
+    font-family: "Inter",sans-serif;
+
+}
+
+.form-title h2{
+    color: #0F4332;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.form-title p{
+    color: #3F4854;
+    font-size: 14px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+}
+
+select {
+    background: #fff;
+    flex: 1;
+    padding: 0 16px;
+    color:#000;
+    font-size: 1em;
+ }
+ 
+ .select {
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    line-height: 3;
+    background: #10C98F;
+    border-radius: .25em;
+ }
+
+ .green{
+    background-color: #10C98F;
+ }
+ .select::after {
+    content: '';
+    position: absolute;
+    padding: 0 1em;
+    background: #10C98F;
+    cursor:pointer;
+    transition:.25s all ease;
+ }
+ .select:hover::after {
+    color: #999;
+ }
+
+ label{
+    font-family: "Inter",sans-serif;
+ }
+
+ .select{
+    margin-top: 20px;
+    margin-bottom: 20px;
+ }
+
+ .form-content{
+    padding-top: 20px;
+
+}
+
+label{
+    font-size: 12px;
+    font-weight: 400;
+    color: #4C5753;
+}
+
+label>span{
+    color: #10C98F;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.form-btn{
+    padding-top: 40px;
+}
+
+.form-btn-a{
+    background: #10C98F;
+    padding: 15px 115px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    border: 0;
+}
+
+#WHY{
+    background-color: #F4FCFA;
+    font-family: 'Inter', sans-serif !important
+}
+
+.why-title{
+    padding-top: 70px;
+    text-align: center;
+
+}
+
+.why-title h2{
+    color: #0F4332;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 22px;
+    padding-bottom: 24px
+}
+
+.why-title p{
+    color: #6D6D6D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.bottom-2 {
+    display: inline-block;
+}
+.hr-2{
+    display: block;
+    width: 125px;
+    height: 4px;
+    color: #10C98F;
+    background-color: #10C98F;
+    margin-bottom: 30px;
+}
+
+.why-content{
+    width: 24.7%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 90px;
+}
+/* .right-side{
+    display: inline-block;
+    width: 49%;
+    height: 100%;
+    vertical-align: top;
+} */
+.why-content img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+.why-card-content{
+    text-align: center;
+}
+
+.why-content:hover .color{
+    color: #10C98F;
+    transition: all .4s ease-in;
+} 
+.why-card-content h5{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+.why-card-content p{
+    color: #6D6D6D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+.sect1Menu
+{
+    position: relative;
+}
+
+.subMenu{
+    display: none;
+    border: 1px solid white;
+    background: white;
+    width: 220px;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    font-size: 16px;
+    border: 0;
+    color: #3F4854;
+    
+}
+.subMenu p:hover{
+    color: #10C98F;
+    margin-left: 5px;
+    transition: all 0.5s ease-out;
+}
+
+
+.subMenu p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.sect1Menu:hover .subMenu{
+    display: block;
+    transition: .5s;
+}
+
+.sect1Menu a{
+    padding-top: 10px;
+}
+
+.back{
+
+    position: fixed;
+    bottom: 40px;
+    right: 60px;
+    font-size: 40px;
+  
+
+}
