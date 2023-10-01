@@ -207,7 +207,7 @@ select {
     font-size: 1em;
  }
  
- .select {
+.select {
     position: relative;
     display: flex;
     width: 20em;
@@ -215,33 +215,33 @@ select {
     line-height: 3;
     background: #10C98F;
     border-radius: .25em;
- }
+}
 
  .green{
     background-color: #10C98F;
  }
- .select::after {
+.select::after {
     content: '';
     position: absolute;
     padding: 0 1em;
     background: #10C98F;
     cursor:pointer;
     transition:.25s all ease;
- }
- .select:hover::after {
+}
+ .select:hover::after{
     color: #999;
- }
+}
 
- label{
+label{
     font-family: "Inter",sans-serif;
- }
+}
 
- .select{
+.select{
     margin-top: 20px;
     margin-bottom: 20px;
- }
+}
 
- .form-content{
+.form-content{
     padding-top: 20px;
 
 }
@@ -393,11 +393,8 @@ label>span{
 }
 
 .back{
-
     position: fixed;
     bottom: 40px;
     right: 60px;
     font-size: 40px;
-  
-
 }
